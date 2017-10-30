@@ -10,14 +10,22 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
++ by adding a file to stage area and overwriting it (iteration possible)
++ command is git add 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
++ try out new feature
++ expriments 
 
 How do the diagrams help you visualize the branch structure?
++ clear understanding of the infrastructure 
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
++ to get an overview what is done
++ to see the parents and the accessible commits
++ commits can be lost (detached heads)
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
