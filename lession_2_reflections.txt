@@ -29,3 +29,7 @@ the diagram the way we do?
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
++pros: it commits a branch and a head into a new head automatically
++pros: it provides a new head and lists the conflicts 
+-cons: the conflict have to be removed on its own, tedios work
+cmd: git merge branch (be on the branch incl master you want to execute merge)
